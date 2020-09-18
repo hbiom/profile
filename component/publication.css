@@ -1,5 +1,3 @@
-
-
 .cart-pulication {
   padding-left: 20px;
   padding-right: 20px;
@@ -10,12 +8,15 @@
   flex-direction: column;
 }
 
-
-.cart-pulication a:first-child {
-  margin: 0 10px;
-  font-size: 24px;
+.cart-pulication h1 {
+  margin: 0;
 }
 
+
+.cart-pulication a:first-child {
+  font-size: 24px;
+  line-height: 24px;
+}
 
 .cart-pulication .cart-sub {
   width: 100%;
