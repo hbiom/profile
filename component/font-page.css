@@ -1,11 +1,17 @@
 .font-page {
   border: 1px solid lightgrey;
-  margin: 20px;
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(26, 200, 188,0.3);
+  background-image: url("../image/font.jpeg");
+  background-size: cover;
   border-radius: 5px;
-  height: 500px;
+  height: 400px;
+}
+
+.font-page h1 {
+  text-align:center;
+  padding-top: 10px;
+  margin: 0;
 }
 
 .div-avatar {
