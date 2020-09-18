@@ -1,0 +1,16 @@
+.logo-square {
+  width:  100px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.logo-long {
+  width:  150px;
+  background-size: cover;
+}
+
+.div-logo {
+  min-width:150px;
+}

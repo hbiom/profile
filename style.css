@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+/* Importing components */
+@import url("component/topnav.css");
+@import url("component/avatar.css");
+@import url("component/experience.css");
+@import url("component/font-page.css");
+@import url("component/logo.css");
+@import url("component/education.css");
+@import url("component/publication.css");
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: "black";
+  font-family: "Gill Sans", sans-serif;
+  font-size:16px;
+  line-height:32px;
+}
+
+h1 {
+  font-family: "Aria"
+  font-size:24px;
+  line-height:32px;
+  text-align: center;
+}
+
+a:hover {
+  color:black;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.btn-link {
+  background-color: blue;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+  padding: 10px 10px;
+  border-radius: 4px;
+  width: max-width;
+  margin: 0 auto;
+}
+
+

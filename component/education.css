@@ -1,0 +1,32 @@
+
+.cart-education {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200,200,200,0.5);
+}
+
+.cart-education .cart-sub {
+  width: 800px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  margin: 20px auto;
+  padding:20px;
+  border-radius: 5px;
+  background-color: rgb(255,255,255);
+}
+
+
+
+ .cart-sub .cart-info {
+  line-height: 10px;
+  padding-right: 20px;
+}
+
+.cart-info h3,a {
+  color:grey;
+}
+
+.cart-info p, ul {
+  font-size: 16px;
+  line-height: 16px;
+}

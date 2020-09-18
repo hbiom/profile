@@ -1,0 +1,9 @@
+
+.div-avatar {
+  display: flex
+  border:solid;
+}
+
+.avatar {
+  height: 300px;
+}
