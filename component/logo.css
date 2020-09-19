@@ -13,5 +13,19 @@
 
 .div-logo {
   width:20%;
-  padding-bottom: 20px;
+}
+
+.div-logo img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+@media (max-width: 960px){
+.div-logo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }

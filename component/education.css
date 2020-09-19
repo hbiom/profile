@@ -14,8 +14,9 @@
   border-radius: 5px;
   background-color: rgb(255,255,255);
   display: flex;
-/*  flex-wrap: wrap; bug
-*/}
+/*    flex-wrap: wrap;
+*/
+}
 
 
 .cart-education  h1 {
@@ -41,4 +42,13 @@
   text-align: justify;
 
 }
+
+/* Sur les grands écrans, on limite la largeur du contenu */
+@media (max-width: 960px){
+    .cart-sub {
+      flex-wrap: wrap;
+    }
+}
+
+
 
