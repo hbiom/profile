@@ -1,13 +1,13 @@
 .font-page {
-  border: 1px solid lightgrey;
   justify-content: space-evenly;
   background-image: url("../image/font.jpeg");
   background-size: cover;
-  border-radius: 5px;
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px 0;
+  border: 1px solid lightgrey;
 }
 
 .font-page h1 {

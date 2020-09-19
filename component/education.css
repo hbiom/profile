@@ -14,12 +14,10 @@
   border-radius: 5px;
   background-color: rgb(255,255,255);
   display: flex;
-/*    flex-wrap: wrap;
-*/
-}
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 
 
-.cart-education  h1 {
+.cart-education h1 {
   margin: 0;
 }
 
