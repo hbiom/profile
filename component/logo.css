@@ -20,7 +20,6 @@
   display: block;
 }
 
-
 .date {
   color: grey;
   margin: 0;
@@ -28,7 +27,6 @@
   padding-top: 20px;
   font-weight: bold;
 }
-
 
 @media (max-width: 960px){
 .div-logo {
@@ -42,12 +40,6 @@ p {
   line-height: 20px;
   font-size: 18px;
 }
-
-
-ul,li {
-  line-height: 16px;
-}
-
 
 h2, h3 {
   margin: 0;

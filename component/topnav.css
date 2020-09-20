@@ -1,6 +1,5 @@
 .topnav {
   border: 1px solid lightgrey;
-  display: flex;
   background-color: #2c3e50;
   display: flex;
   padding: 10px 20px;
@@ -21,7 +20,8 @@
   color: black;
 }
 
-.topnav a.active {
+/*.topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
+*/

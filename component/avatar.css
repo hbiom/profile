@@ -2,8 +2,14 @@
 .div-avatar {
   display: flex
   border:solid;
+  margin: auto 0;
 }
 
 .avatar {
   height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+
 }
+

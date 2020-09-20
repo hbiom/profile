@@ -1,6 +1,11 @@
 
+.network {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
-
-.footer {
-color: red;
+.network li {
+  display: inline;
+  font-size: 60px;
 }

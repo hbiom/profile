@@ -27,14 +27,9 @@
   width: 100%;
 }
 
-
-/*.cart-info p, ul {
-  font-size: 16px;
-  line-height: 20px;
-  text-align: justify;
+.cart-info ul,li {
+  line-height: 16px;
 }
-*/
-/* Sur les grands écrans, on limite la largeur du contenu */
 
 @media (max-width: 960px){
     .cart-sub {
