@@ -1,7 +1,8 @@
 .font-page {
   justify-content: space-evenly;
 /*  background-image: url("../image/font.jpeg");
-*/  background-color: rgb(240, 240, 240);
+*/
+  background-color: rgb(240, 240, 240);
   width: 100%;
   height: auto;
   display: flex;

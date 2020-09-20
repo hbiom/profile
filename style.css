@@ -22,19 +22,34 @@ li {
   padding: 0;
 }
 
-body {
-  background-color: "black";
-  font-family: "Gill Sans", sans-serif;
-  font-size:16px;
+h1 {
+  font-size:28px;
+  font-family: "Aria";
+  text-align: center;
+}
+
+h2 {
+  font-family: "Aria";
+  font-size:26px;
   line-height:32px;
 }
 
-h1 {
-  font-family: "Aria"
+h3 {
+  font-family: "Gill Sans", sans-serif;
   font-size:24px;
   line-height:32px;
-  text-align: center;
 }
+
+
+p, ul, li {
+  font-family: "Gill Sans", sans-serif;
+  font-size:20px;
+}
+
+ul, li {
+  line-height: 20px;
+}
+
 
 a:hover {
   color:black;
@@ -45,16 +60,5 @@ a:hover {
   text-align: center;
 }
 
-.btn-link {
-  background-color: blue;
-  color: white;
-  font-family: 'Lora', serif;
-  font-size: 17px;
-  font-weight: lighter;
-  padding: 10px 10px;
-  border-radius: 4px;
-  width: max-width;
-  margin: 0 auto;
-}
 
 
