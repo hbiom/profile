@@ -16,10 +16,15 @@
   display: flex;
 }
 
+.cart_exp h3:first-child {
+  font-size: 24px;
+  line-height: 24px;
+}
+
 
 .cart_exp h1 {
-/*  text-align: center;
-*/  margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 
@@ -34,7 +39,6 @@
 
 
 .cart-info {
-  line-height: 10px;
   padding:0 20px;
 }
 

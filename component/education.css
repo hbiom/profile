@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(200,200,200,0.5);
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .cart-education .cart-sub {
@@ -15,33 +15,27 @@
   background-color: rgb(255,255,255);
   display: flex;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-
-
-.cart-education h1 {
-  margin: 0;
 }
 
+.cart_education h3:first-child {
+  font-size: 24px;
+  line-height: 24px;
+}
 
  .cart-sub .cart-info {
   padding-right: 20px;
   width: 100%;
 }
 
-.cart-info h3,a {
-  color:grey;
-  line-height: 16px;
-  margin-bottom:10px;
-  margin-top:0;
-}
 
-.cart-info p, ul {
+/*.cart-info p, ul {
   font-size: 16px;
   line-height: 20px;
   text-align: justify;
-
 }
-
+*/
 /* Sur les grands écrans, on limite la largeur du contenu */
+
 @media (max-width: 960px){
     .cart-sub {
       flex-wrap: wrap;
