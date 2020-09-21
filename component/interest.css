@@ -1,0 +1,24 @@
+
+
+.interest {
+  background-color: rgb(200,200,200,0.5);
+}
+
+.interest div {
+  display: flex;
+  justify-content: space-around;
+  padding:20px;
+}
+
+.interest h1 {
+  margin:0;
+  padding: 10px 0;
+}
+
+
+
+.interest_image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

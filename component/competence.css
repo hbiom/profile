@@ -1,0 +1,32 @@
+
+.competences {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200,200,200,0.5);
+  padding-top: 20px;
+}
+
+.competences h1 {
+  margin:0;
+  padding: 10px 0;
+}
+
+.competence {
+  width: 70%;
+  border-bottom: 1px solid lightgrey;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.competence h2 {
+  text-align: center;
+  color: gray;
+}
+
+.competence-list {
+  padding-left: 20px;
+}
+
