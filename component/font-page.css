@@ -7,8 +7,9 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 0;
   border: 1px solid lightgrey;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .font-page h1 {
@@ -24,7 +25,6 @@
   padding-top: 20px;
   font-size:24px;
   line-height:32px;
-  text-align: center;
   width: 60%;
   height: auto;
 }
@@ -37,6 +37,10 @@
 
 .div-text p{
   margin-bottom: 30px;
+  text-align: justify;
 }
 
-
+.div-text p:first-child{
+  text-align: center;
+  margin:0;
+}

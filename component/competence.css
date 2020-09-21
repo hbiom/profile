@@ -22,8 +22,8 @@
 }
 
 .competence h2 {
-  text-align: center;
   color: gray;
+  padding-left: 20px;
 }
 
 .competence-list {
