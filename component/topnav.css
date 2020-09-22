@@ -6,11 +6,9 @@
   width: 100%;
 }
 
-
-
 .sticky {
-  position: fixed;
-
+  position: sticky;
+  top:0;
 }
 
 .topnav a {
