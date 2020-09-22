@@ -31,11 +31,4 @@
   line-height: 16px;
 }
 
-@media (max-width: 960px){
-    .cart-sub {
-      flex-wrap: wrap;
-    }
-}
-
-
 
