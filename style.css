@@ -73,9 +73,7 @@ a:hover {
   text-align: center;
 }
 
-i {
-    color: white;
-}
+
 
 @media (max-width: 960px){
     .cart-sub {
