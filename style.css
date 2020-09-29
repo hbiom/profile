@@ -13,6 +13,9 @@
 @import url("component/interest.css");
 @import url("component/competence.css");
 
+html{scroll-behavior:smooth}
+
+
 
 a {
   text-decoration: none;
