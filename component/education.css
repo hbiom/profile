@@ -1,16 +1,4 @@
-
-.education .cart-sub {
-  width: 70%;
-  border-bottom: 1px solid lightgrey;
-  margin: 20px auto;
-  padding:20px;
-  border-radius: 5px;
-  background-color: rgb(255,255,255);
-  display: flex;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.education h3:first-child {
+.educations h3:first-child {
   font-size: 24px;
   line-height: 24px;
 }
