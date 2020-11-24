@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
 /* Importing components */
-@import url("component/topnav.css");
 @import url("component/avatar.css");
-@import url("component/font-page.css");
-@import url("component/education.css");
-@import url("component/footer.css");
 @import url("component/competence.css");
+@import url("component/education.css");
+@import url("component/font-page.css");
+@import url("component/footer.css");
 @import url("component/sections.css");
+@import url("component/topnav.css");
 
 
-html{scroll-behavior:smooth}
-
-
+html{
+  scroll-behavior:smooth
+}
 
 a {
   text-decoration: none;
@@ -68,12 +68,9 @@ a:hover {
   color:black;
 }
 
-
 .text-center {
   text-align: center;
 }
-
-
 
 @media (max-width: 960px){
     .cart-sub {
