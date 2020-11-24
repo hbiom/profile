@@ -1,23 +1,22 @@
-.cart-pulication {
-  padding-left: 80px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 40px;
+
+.publication {
+  padding: 40px 20px 0px 20px;
+  margin: 20px 20px 0px 20px;
+  background-color:white;
 }
 
-.cart-pulication a:first-child {
+.publication a:first-child {
   font-size: 24px;
   line-height: 24px;
   margin:20px 0px;
 }
 
-.cart-pulication .cart-sub {
+.publication .cart-sub {
   width: 100%;
   border-bottom: 1px solid lightgrey;
   border-radius: 5px;
   padding-top: 20px;
 }
-
 
 span {
   color: blue;

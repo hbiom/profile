@@ -1,7 +1,5 @@
-.font-page {
+#welcome {
   justify-content: space-evenly;
-/*  background-image: url("../image/font.jpeg");
-*/
   background-color: rgb(240, 240, 240);
   width: 100%;
   height: auto;
@@ -12,7 +10,7 @@
   padding-bottom: 20px;
 }
 
-.font-page h1 {
+#font-page h1 {
   text-align:center;
   padding-top: 10px;
   margin: 0;

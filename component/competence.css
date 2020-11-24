@@ -1,11 +1,4 @@
 
-.competences {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(200,200,200,0.5);
-  padding-top: 40px;
-}
-
 .competence {
   width: 70%;
   border-bottom: 1px solid lightgrey;

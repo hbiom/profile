@@ -1,15 +1,27 @@
 
 
+.education {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200,200,200,0.5);
+  padding-top: 40px;
+}
+
+.competences {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200,200,200,0.5);
+  padding-top: 40px;
+}
 
 
 
-
-
-
-
-
-
-
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200,200,200,0.5);
+  padding-top: 40px;
+}
 
 
 
