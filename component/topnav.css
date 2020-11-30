@@ -94,4 +94,8 @@ This class makes the topnav look good on small screens (display the links vertic
     display: block;
     text-align: left;
   }
+
+  .topnav > div {
+  padding: 0px;
+  }
 }
