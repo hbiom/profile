@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -11,13 +12,16 @@
         <div>
           <a href="#welcome">Welcome</a>
         </div>
-        <nav>
-          <a href="#experience">Experience</a>
-          <a href="#competence">Skill</a>
-          <a href="#publication">Publication</a>
-          <a href="#education">Education</a>
-        </nav>
+          <nav class="subtopnav" id="myTopnav">
+            <a href="#experience">Experience</a>
+            <a href="#competence">Skill</a>
+            <a href="#publication">Publication</a>
+            <a href="#education">Education</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </nav>
       </div>
+
       <div class = "font-page">
         <div class = div-avatar>
           <img src="image/avatar2.jpg" alt="Bottois Hugo" class = "avatar">
@@ -259,3 +263,15 @@
   </body>
 </html>
 
+
+<script>
+
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "subtopnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "subtopnav";
+  }
+}
+</script>
