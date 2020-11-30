@@ -1,7 +1,7 @@
 .topnav {
   background-color: #2c3e50;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -24,9 +24,9 @@
   color: black;
 }
 
-nav {
-  padding-right:50px;
-}
+
+
+
 
 
 .subtopnav {
