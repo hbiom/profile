@@ -6,6 +6,8 @@
 }
 
 .list {
+  display: flex;
+  flex-direction: column;
   padding: 40px 20px 0px 20px;
   margin: 20px 20px 0px 20px;
   background-color:white;
@@ -55,6 +57,21 @@ span {
 
 
 
+
+
+
+@media screen and (max-width: 600px) {
+  .subbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sublist {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
 
 
 
