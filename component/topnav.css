@@ -1,8 +1,12 @@
 .topnav {
   background-color: #2c3e50;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
+}
+
+.topnav > div {
+  padding: 0px 200px;
 }
 
 .sticky {
@@ -30,6 +34,8 @@
 .subtopnav {
   background-color: #2c3e50;
   overflow: hidden;
+  position: absolute;
+  right: 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -49,27 +55,40 @@
 }
 
 /* Hide the link that should open and close the topnav on small screens */
-.subtopnav .icon {
+.boxicon {
+  margin: auto;
+}
+
+.boxicon .icon {
   display: none;
 }
 
 
-@media screen and (max-width: 600px) {
-  .subtopnav a:not(:first-child) {display: none;}
+
+@media screen and (max-width: 500px) {
+  .subtopnav a {
+    display: none;
+  }
   .subtopnav a.icon {
     float: right;
     display: block;
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
+This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 500px) {
   .subtopnav.responsive {position: relative;}
-  .subtopnav.responsive a.icon {
+  .subtopnav.responsive. a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+  .boxicon .icon {
+    display: contents;
+  }
+
   .subtopnav.responsive a {
     float: none;
     display: block;
