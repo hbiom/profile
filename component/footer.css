@@ -10,7 +10,7 @@ footer h1{
 }
 
 footer i {
-    color: white;
+  color: white;
 }
 
 .network {
@@ -21,6 +21,6 @@ footer i {
 
 .network li {
   display: inline;
-  font-size: 60px;
+  font-size: 30px;
 }
 
