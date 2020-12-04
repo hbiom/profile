@@ -8,6 +8,7 @@
   border-bottom: 1px solid lightgrey;
   padding-top: 80px;
   padding-bottom: 20px;
+  color: black;
 }
 
 .font-page h1 {
@@ -33,7 +34,7 @@
   padding: 5px 10px;
 }
 
-.div-text p{
+.div-text p {
   margin-bottom: 30px;
   text-align: justify;
 }
