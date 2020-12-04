@@ -269,11 +269,11 @@
 <script>
 
   function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "subtopnav") {
-    x.className += " responsive";
+  const navbar = document.getElementById("myTopnav");
+  if (navbar.className === "subtopnav") {
+    navbar.className += " responsive";
   } else {
-    x.className = "subtopnav";
+    navbar.className = "subtopnav";
   }
 }
 </script>

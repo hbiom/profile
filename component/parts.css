@@ -38,10 +38,10 @@
   width: 100%;
 }
 
-.cart-info h3,a {
+/*.cart-info h3,a {
   color:grey;
 }
-
+*/
 .date {
   color: grey;
   margin: 0;
@@ -54,9 +54,6 @@ span {
   color: blue;
   font-weight: bold;
 }
-
-
-
 
 
 
