@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 0px 20px;
+  margin: 20px 20px 0px 20px;
+  background-color:white;
+  color: black;
+}
+
+.sublist {
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+  padding:10px 20px;
+  border-radius: 5px;
+}
+
+.sublist a {
+  color: grey;
+}
+
+.sublist a:hover {
+  color:black;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .subbox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sublist {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+

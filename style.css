@@ -3,10 +3,10 @@
 /* Importing components */
 @import url("component/avatar.css");
 @import url("component/competence.css");
-@import url("component/education.css");
+@import url("component/box.css");
 @import url("component/font-page.css");
 @import url("component/footer.css");
-@import url("component/parts.css");
+@import url("component/list.css");
 @import url("component/topnav.css");
 
 
@@ -59,13 +59,9 @@ ul, li {
   padding:0;
 }
 
-
-h2, h3 {
+h1, h2 {
   margin: 0;
-}
-
-a:hover {
-  color:black;
+  color: black;
 }
 
 .text-center {
@@ -74,6 +70,19 @@ a:hover {
 
 .display-flex {
   display: flex;
+}
+
+.date {
+  color: grey;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
 }
 
 @media (max-width: 960px){

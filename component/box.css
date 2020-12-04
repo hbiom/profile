@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(200,200,200,0.5);
+  padding-top: 40px;
+}
+
+.subbox {
+  width: 70%;
+  margin: 20px auto;
+  padding:20px;
+  border-radius: 5px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  color: black;
+}
+
+.cart-info {
+  padding:0 20px;
+  width: 100%;
+}
+
+
+.cart-sub .cart-info {
+  padding-right: 20px;
+  width: 100%;
+}
+
+.cart-info ul,li {
+  line-height: 16px;
+}
+
+.cart-info a {
+    color: grey;
+}
+
+.cart-info a:hover {
+    color: black;
+}
+
