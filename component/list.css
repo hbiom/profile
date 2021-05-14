@@ -26,13 +26,17 @@
 
 @media screen and (max-width: 600px) {
   .subbox {
-    display: flex;
+    display: block;
     flex-direction: column;
   }
 
   .sublist {
     display: flex;
     flex-direction: column;
+  }
+
+  .list > sublist {
+    display: block;
   }
 
 }

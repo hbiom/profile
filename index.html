@@ -8,104 +8,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-      <div class = "topnav sticky">
-        <div>
-          <a href="#welcome">Welcome</a>
-        </div>
-        <div class="subtopnav" id="myTopnav">
-          <a href="#experience">Experience</a>
-          <a href="#competence">Skill</a>
-          <a href="#publication">Publication</a>
-          <a href="#education">Education</a>
-        </div>
-        <div class="boxicon">
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </div>
+    <div class = "topnav" id="myTopnav">
+      <a href="#welcome">Welcome</a>
+      <div>
+        <a href="#experience">Experience</a>
+        <a href="#competence">Skill</a>
+        <a href="#publication">Publication</a>
+        <a href="#education">Education</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">&#9776;</a>
       </div>
+    </div>
 
-      <div class = "font-page">
-        <div class = div-avatar>
-          <img src="image/avatar2.jpg" alt="Bottois Hugo" class = "avatar">
-          <h1> Hugo Bottois, PhD</h1>
-        </div>
-        <div class= "div-text" >
-          <p> ABOUT <span> ME </span></p>
-          <p class = "text-center"> I have a <strong>PhD in Life Science🔬</strong> and I'm passionate about the intersections of Healthcare and Data science and programming.</p>
-          <p>I had my first experiences in coding during my thesis in clinical life science. I performed statistical and bioinformatic analysis. Slowly but surely, I became more
-          and more passionate about intersections of Healthcare, data and programming. After my thesis, I attended data science and programing bootcamp and got a position on a
-          data science project aiming to develop tools for medical assistance with machine learning and medical images.</p>
-        </div>
+    <div class = "font-page">
+      <div class = div-avatar>
+        <img src="image/avatar2.jpg" alt="Bottois Hugo" class = "avatar">
+        <h1> Hugo Bottois, PhD</h1>
       </div>
-      <div class="list" id="experience">
-        <h1 class="title">Experiences</h1>
-        <div class="sublist display-flex">
-          <div class = "div-logo">
-            <img src="image/capgemini-altran.jpg" alt="capgemini-altran" class = "logo-long">
-            <p class ="date">2019</p>
-          </div>
-          <div class = "cart-info">
-            <h2>Projet Leader</h2>
-            <h3>Altran reseach and innovation</h3>
-            <p>Developing diagnosis assistance for radiologist using machine learning applied on medical images</p>
-            <p><strong>Scientific Projects:</strong></p>
-              <ul>
-                <li>- Classification of benign and malignant soft-tissue tumors based on images and radiomic data</li><br/>
-                <li>- Tumor Segmentation on osteosarcoma</li><br/>
-              </ul>
-            <p>Development of a Web demonstrator to deploy our algorithm</p>
-            <p>Mentoring intership and a team including data scientist and programmer</p>
-            <p>Redaction and communication of scientific result</p>
-            <p>Collaboration with biomedical imaging research laboratory CREATIS (Lyon)</p>
-            <p> <strong> Technical track </strong> : Python, Numpy, Keras, Tensorflow, Sklearn, Nibabel, Django, Docker</p>
-          </div>
+      <div class= "div-text" >
+        <p> ABOUT <span> ME </span></p>
+        <p class = "text-center"> I have a <strong>PhD in Life Science🔬</strong> and I'm passionate about the intersections of Healthcare and Data science and programming.</p>
+        <p>I had my first experiences in coding during my thesis in clinical life science. I performed statistical and bioinformatic analysis. Slowly but surely, I became more
+        and more passionate about intersections of Healthcare, data and programming. After my thesis, I attended data science and programing bootcamp and got a position on a
+        data science project aiming to develop tools for medical assistance with machine learning and medical images.</p>
+      </div>
+    </div>
+    <div class="list" id="experience">
+      <h1 class="title">Experiences</h1>
+      <div class="sublist display-flex">
+        <div class = "div-logo">
+          <img src="image/capgemini-altran.jpg" alt="capgemini-altran" class = "logo-long">
+          <p class ="date">2019</p>
         </div>
-
-        <div class="sublist display-flex">
-          <div class = "div-logo">
-            <img src="image/inserm.png" alt="inserm" class = "logo-long">
-            <p class ="date">2015-2019</p>
-            <p class ="date">4 ans</p>
-          </div>
-          <div class = "cart-info">
-            <h2>Science project leader, PhD candidate</h2>
-            <h3>Paris Diderot/Hopital Saint Louis</h3>
-            <h3>INSERM UMRS 1160 « microenvironment, lymphocyte development and homing»</h3>
-            <p> Thesis project: "Acquisition and regulation of effector T cells function in Crohn's disease"</p>
-            <p> <strong>Scientific Projects:</strong></p>
+        <div class = "cart-info">
+          <h2>Projet Leader</h2>
+          <h3>Altran reseach and innovation</h3>
+          <p>Developing diagnosis assistance for radiologist using machine learning applied on medical images</p>
+          <p><strong>Scientific Projects:</strong></p>
             <ul>
-              <li>- Phenotypic and transcriptomic signature of CD8 tissue resident memory T cell subsets in healthy and Crohn's disease patient intestinal mucosa</li><br/>
-              <li>- Establishment of autologous co-coculture model of mucosal T cells and intestinal organoid to study lympho-epithelial interaction and T cell functions</li><br/>
-              <li>- Study of NKG2D receptor implication in Crohn's disease physiopathology</li><br/>
-          </ul>
-          <p> <strong> Technical track </strong> : R, Bioconductor, Bioinformatic, Biostatistique, Flow cytometry, Organoid and Cell culture </p>
-          </div>
+              <li>- Classification of benign and malignant soft-tissue tumors based on images and radiomic data</li><br/>
+              <li>- Tumor Segmentation on osteosarcoma</li><br/>
+            </ul>
+          <p>Development of a Web demonstrator to deploy our algorithm</p>
+          <p>Mentoring intership and a team including data scientist and programmer</p>
+          <p>Redaction and communication of scientific result</p>
+          <p>Collaboration with biomedical imaging research laboratory CREATIS (Lyon)</p>
+          <p> <strong> Technical track </strong> : Python, Numpy, Keras, Tensorflow, Sklearn, Nibabel, Django, Docker</p>
         </div>
       </div>
-      <div class="box" id="competence">
-        <h1 class="title"> Skill </h1>
-        <div>
-          <div class="subbox">
-            <h2>Programming</h2>
-            <div class="competence-list">
-              <ul>
-                <li><span>Machine learning</span>: Python, Numpy, Sklearn, Tensorflow, Keras </li>
-                <li><span>Data visualization</span>: Seaborn, Matplotlib, Chart.js </li>
-                <li><span>Web development</span>: Ruby, ruby on rails, HTML/CSS, Javascript</li>
-                <li><span>Database</span>: SQL, postgress</li>
-                <li><span>Software</span>: git, github</li>
-              </ul>
-            </div>
+
+      <div class="sublist display-flex">
+        <div class = "div-logo">
+          <img src="image/inserm.png" alt="inserm" class = "logo-long">
+          <p class ="date">2015-2019</p>
+          <p class ="date">4 ans</p>
+        </div>
+        <div class = "cart-info">
+          <h2>Science project leader, PhD candidate</h2>
+          <h3>Paris Diderot/Hopital Saint Louis</h3>
+          <h3>INSERM UMRS 1160 « microenvironment, lymphocyte development and homing»</h3>
+          <p> Thesis project: "Acquisition and regulation of effector T cells function in Crohn's disease"</p>
+          <p> <strong>Scientific Projects:</strong></p>
+          <ul>
+            <li>- Phenotypic and transcriptomic signature of CD8 tissue resident memory T cell subsets in healthy and Crohn's disease patient intestinal mucosa</li><br/>
+            <li>- Establishment of autologous co-coculture model of mucosal T cells and intestinal organoid to study lympho-epithelial interaction and T cell functions</li><br/>
+            <li>- Study of NKG2D receptor implication in Crohn's disease physiopathology</li><br/>
+        </ul>
+        <p> <strong> Technical track </strong> : R, Bioconductor, Bioinformatic, Biostatistique, Flow cytometry, Organoid and Cell culture </p>
+        </div>
+      </div>
+    </div>
+    <div class="box" id="competence">
+      <h1 class="title"> Skill </h1>
+      <div>
+        <div class="subbox">
+          <h2>Programming</h2>
+          <div class="competence-list">
+            <ul>
+              <li><span>Machine learning</span>: Python, Numpy, Sklearn, Tensorflow, Keras </li>
+              <li><span>Data visualization</span>: Seaborn, Matplotlib, Chart.js </li>
+              <li><span>Web development</span>: Django, Flask, HTML/CSS, Javascript</li>
+              <li><span>Database</span>: SQL, postgress</li>
+              <li><span>Software</span>: git, github</li>
+            </ul>
           </div>
-          <div class="subbox">
-            <h2>Projects</h2>
-            <div class="competence-list">
-              <ul>
-                <li> <span>Project management</span></li>
-                <li> <span>Scientific Communication</span></li>
-              </ul>
-            </div>
+        </div>
+        <div class="subbox">
+          <h2>Projects</h2>
+          <div class="competence-list">
+            <ul>
+              <li> <span>Project management</span></li>
+              <li> <span>Scientific Communication</span></li>
+            </ul>
           </div>
+        </div>
 
           <div class="subbox">
             <h2>Languages</h2>
@@ -119,6 +114,7 @@
           </div>
         </div>
       </div>
+
     <div class="list" id="publication">
       <h1 class="title">Publication</h1>
 
@@ -266,13 +262,13 @@
 
 
 <script>
-  function responsiveNavbar() {
 
-    const navbar = document.getElementById("myTopnav");
-    if (navbar.className === "subtopnav") {
-      navbar.className += " responsive";
+  function responsiveNavbar() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
     } else {
-      navbar.className = "subtopnav";
+      x.className = "topnav";
     }
   }
 </script>
