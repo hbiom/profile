@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .topnav div > a {
     display: none;
   }
@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
