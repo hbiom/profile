@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(200,200,200,0.5);
-  padding-top: 40px;
 }
 
 .subbox {
@@ -11,8 +10,8 @@
   padding:20px;
   border-radius: 5px;
   background-color: rgb(255,255,255);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   color: black;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .cart-info {
@@ -39,4 +38,12 @@
 }
 
 
+#publication {
+  width: 80%;
+  margin: auto;
+}
 
+#publication > div {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
