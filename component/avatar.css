@@ -1,7 +1,7 @@
 
 .div-avatar {
-  display: flex
-  border:solid;
+  width: 400px;
+  text-align: center;
   margin: auto 0;
 }
 
@@ -40,3 +40,6 @@
     padding-bottom: 20px;
   }
 }
+
+
+
