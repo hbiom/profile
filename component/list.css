@@ -23,6 +23,13 @@
 
 
 
+#publication > div:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+
 @media screen and (max-width: 600px) {
   .subbox {
     display: block;

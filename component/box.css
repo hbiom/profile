@@ -14,6 +14,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+
 .cart-info {
   padding:0 20px;
   width: 100%;
@@ -46,4 +47,10 @@
 #publication > div {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 20px;
+}
+
+
+.subbox:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }

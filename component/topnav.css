@@ -60,3 +60,19 @@
     text-align: left;
   }
 }
+
+
+
+.visible {
+  opacity: 1;
+/*  transform: translateY(-30px);
+*/  transition: 0.7s;
+
+}
+
+
+.invisible {
+  opacity: 0;
+}
+
+
