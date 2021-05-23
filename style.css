@@ -8,7 +8,6 @@
 @import url("component/footer.css");
 @import url("component/topnav.css");
 
-
 html{
   scroll-behavior:smooth
 }
@@ -77,7 +76,6 @@ ul, li {
   font-size: 12px;
   color: white;
 }
-
 
 .text-center {
   text-align: center;

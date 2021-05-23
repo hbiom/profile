@@ -58,6 +58,8 @@
 
 /*list*/
 
+
+
 .list {
   display: flex;
   flex-direction: column;
@@ -68,7 +70,9 @@
 
 .sublist {
   width: 100%;
+  padding:10px;
   border-radius: 5px;
+  margin: 20px auto;
 }
 
 .sublist a {
