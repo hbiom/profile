@@ -1,0 +1,10 @@
+/* Animation*/
+
+.visible {
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.invisible {
+  opacity: 0;
+}

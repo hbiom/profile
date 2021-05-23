@@ -1,3 +1,5 @@
+/*box*/
+
 .box {
   display: flex;
   flex-direction: column;
@@ -14,12 +16,10 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-
 .cart-info {
   padding:0 20px;
   width: 100%;
 }
-
 
 .cart-sub .cart-info {
   padding-right: 20px;
@@ -38,7 +38,6 @@
     color: black;
 }
 
-
 #publication {
   width: 80%;
   margin: auto;
@@ -53,4 +52,59 @@
 .subbox:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  background-color: rgb(255,255,255,0.9);
+}
+
+
+/*list*/
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  background-color:white;
+  color: black;
+}
+
+.sublist {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sublist a {
+  color: grey;
+}
+
+.sublist a:hover {
+  color:black;
+}
+
+#publication > div:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.competence h2 {
+  color: gray;
+  padding-left: 20px;
+}
+
+.competence-list {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .subbox {
+    display: block;
+    flex-direction: column;
+  }
+
+  .sublist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list > sublist {
+    display: block;
+  }
 }

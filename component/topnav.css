@@ -23,11 +23,9 @@
     color: black;
 }
 
-
 .topnav .icon {
   display: none;
 }
-
 
 @media (max-width: 600px) {
   .topnav div > a {
@@ -53,7 +51,6 @@
     top: 0;
   }
 
-
   .topnav.responsive a {
     float: none;
     display: block;
@@ -61,18 +58,5 @@
   }
 }
 
-
-
-.visible {
-  opacity: 1;
-/*  transform: translateY(-30px);
-*/  transition: 0.7s;
-
-}
-
-
-.invisible {
-  opacity: 0;
-}
 
 

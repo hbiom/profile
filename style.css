@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
 /* Importing components */
+@import url("component/animation.css");
 @import url("component/avatar.css");
-@import url("component/competence.css");
-@import url("component/box.css");
+@import url("component/container.css");
 @import url("component/font-page.css");
 @import url("component/footer.css");
-@import url("component/list.css");
 @import url("component/topnav.css");
 
 
