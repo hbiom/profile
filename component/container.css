@@ -154,7 +154,7 @@ p {
 
   .card-info-portfolio {
     width: 80%;
-    margin-top: 30px;
+    margin: 30px 0px;
   }
 
   .img-portfolio img {
@@ -167,7 +167,7 @@ p {
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  font: 20px;
+  flex-wrap: wrap;
 }
 
 
@@ -175,7 +175,8 @@ p {
   color: blue;
   font-weight: bold;
   padding-right: 20px;
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom:20px;
 }
 
 
@@ -204,7 +205,10 @@ p {
 }
 
 
-
+.skills {
+  display:flex;
+  flex-wrap: wrap;
+}
 
 
 
