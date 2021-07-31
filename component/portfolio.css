@@ -1,0 +1,88 @@
+/* portfolio*/
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 100px 0px;
+}
+
+.img-portfolio {
+  width: 500px;
+  text-align: center;
+}
+
+.img-portfolio img {
+  width: 100%;
+}
+
+.card-info-portfolio {
+  width: 50%;
+}
+
+.portfolio-description {
+  width: 100%;
+}
+
+.technical_track {
+  margin-bottom:20px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.technical_track span {
+  color: blue;
+  font-weight: bold;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.technical_track p {
+  padding: 4px 6px;
+  font-weight:bold;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  border: 2px solid #1EDD88;
+  margin: 0px 8px 8px 8px;
+}
+
+.technical_track p:hover {
+  padding: 4px 6px;
+  font-weight:bold;
+  align-items: center;
+  background: #1EDD88;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  color: white;
+  border: 2px solid #1EDD88;
+  margin: 0px 8px 8px 8px;
+}
+
+.skills {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .card-info-portfolio {
+    width: 80%;
+    margin: 30px 0px;
+  }
+
+  .img-portfolio img {
+    width: 80%;
+  }
+
+  .technical_track span {
+    margin-bottom:20px;
+  }
+}

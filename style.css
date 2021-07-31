@@ -7,6 +7,10 @@
 @import url("component/font-page.css");
 @import url("component/footer.css");
 @import url("component/topnav.css");
+@import url("component/text.css");
+@import url("component/portfolio.css");
+@import url("component/button.css");
+
 
 html{
   scroll-behavior:smooth
@@ -33,6 +37,10 @@ h1,h2,h3,h4 {
 
 h1, h2 {
   color: black;
+}
+
+p {
+  text-align: justify;
 }
 
 h1 {
@@ -69,53 +77,6 @@ ul, li {
   text-decoration: none;
   padding:0;
 }
-
-.title {
-  padding-top: 25px;
-}
-
-.copyrigth {
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 12px;
-  color: white;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.display-flex {
-  display: flex;
-}
-
-.date {
-  color: grey;
-  margin: 0;
-  text-align: center;
-  padding-top: 20px;
-  font-weight: bold;
-}
-
-hr {
-  width: 90%;
-  border-color: rgb(255,255,255);
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-span {
-  color: blue;
-  font-weight: bold;
-}
-
-@media (max-width: 960px){
-    .cart-sub {
-      flex-wrap: wrap;
-    }
-}
-
-
 
 
 
