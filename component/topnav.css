@@ -6,6 +6,7 @@
   padding: 0 20px;
   position: sticky;
   top:0;
+  z-index: 1;
 }
 
 .topnav a {
@@ -44,7 +45,10 @@
 }
 
 @media (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
