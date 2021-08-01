@@ -10,12 +10,35 @@
 }
 
 
+/*subbox*/
+.subbox:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background-color: rgb(255,255,255,0.9);
+}
+
+/*publication*/
+#publication > div:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+/*portfolio*/
+
+.portfolio:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background-color: rgb(255,255,255,0.9);
+}
+
 .img-portfolio figure img {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
+
 .img-portfolio figure:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);

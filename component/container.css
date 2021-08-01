@@ -47,13 +47,6 @@
   margin-bottom: 20px;
 }
 
-.subbox:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-  background-color: rgb(255,255,255,0.9);
-}
-
-
 /*list*/
 
 .list {
@@ -77,11 +70,6 @@
 
 .sublist a:hover {
   color:black;
-}
-
-#publication > div:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
 }
 
 .competence h2 {

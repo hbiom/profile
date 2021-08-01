@@ -5,8 +5,16 @@
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
-  margin: 100px 0px;
+  margin: 100px 20px;
 }
+
+/*.portfolio > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+*/
+
 
 .img-portfolio {
   width: 500px;
@@ -49,7 +57,7 @@
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   border-radius: 4px;
   border: 2px solid #1EDD88;
-  margin: 0px 8px 8px 8px;
+  margin: 0px 8px 8px 0px;
 }
 
 .technical_track p:hover {
@@ -73,9 +81,13 @@
 
 @media screen and (max-width: 600px) {
 
+  .portfolio {
+    margin: 0px;
+  }
+
   .card-info-portfolio {
     width: 80%;
-    margin: 30px 0px;
+    margin: 50px 0px;
   }
 
   .img-portfolio img {
@@ -86,3 +98,6 @@
     margin-bottom:20px;
   }
 }
+
+
+
