@@ -1,5 +1,5 @@
 
-###Personal website coded from scratch
+### Personal website coded from scratch
 ***
 
 **Technologies** : HTML, CSS, JS
